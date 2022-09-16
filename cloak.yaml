@@ -1,0 +1,4 @@
+name: extension-template
+extensions:
+  - path: .
+    sdk: 

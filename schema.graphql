@@ -1,0 +1,11 @@
+extend type Query {
+  extension: Extension!
+}
+
+type Extension {
+  script(): Filesystem!
+}
+
+extend type Filesystem {
+  extension(): Filesystem!  
+}
